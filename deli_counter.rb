@@ -22,6 +22,6 @@ end
     if deli.empty?
       puts "The line is currently empty."
     else
-      puts "Currently serving #{deli.length} in line."
+      puts "Currently serving #{deli.first}."
   end
 end
