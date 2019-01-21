@@ -1,10 +1,12 @@
 # Write your code here.
 katz_deli = []
 
-  def line(person)
-    line.map do |person|
-      if >0
-        "The line is empty."
-      else 
+  def line(deli)
+    if deli.empty?
+      puts "The line is currently empty."
+    else
+      current_line = "The line is currently:"
+      deli.each.with_index(1)
+
   end
 end
