@@ -18,7 +18,7 @@ end
     puts "Welcome, #{name}. You are number #{deli.length} in line."
   end
 
-  def now_serving(deli, name)
+  def now_serving(deli)
     if deli.empty?
       puts "The line is currently empty."
     else
