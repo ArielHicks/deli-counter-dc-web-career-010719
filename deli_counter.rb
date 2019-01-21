@@ -21,7 +21,7 @@ end
   def now_serving(deli, name)
     if deli.empty?
       puts "The line is currently empty."
-    else 
+    else
       puts "Currently serving #{deli.length} in line."
   end
 end
