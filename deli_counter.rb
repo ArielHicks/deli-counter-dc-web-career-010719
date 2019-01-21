@@ -18,8 +18,9 @@ end
     puts "Welcome, #{name}. You are number #{deli.length} in line."
   end
 
-def now_serving
-  if deli.empty?
-    puts "The line is currently empty."
-end
+  def now_serving
+    if deli.empty?
+      puts "The line is currently empty."
+    else 
+  end
 end
