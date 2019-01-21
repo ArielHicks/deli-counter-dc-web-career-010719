@@ -23,5 +23,6 @@ end
       puts "The line is currently empty."
     else
       puts "Currently serving #{deli.first}."
+      deli.shift
   end
 end
