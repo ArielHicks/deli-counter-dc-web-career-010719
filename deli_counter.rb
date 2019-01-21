@@ -19,5 +19,5 @@ end
   end
 
 def now_serving
-  
+  # if deli.empty?
 end
