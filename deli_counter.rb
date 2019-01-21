@@ -5,5 +5,6 @@ katz_deli = []
     line.map do |person|
       if >0
         "The line is empty."
+      else 
   end
 end
