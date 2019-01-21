@@ -17,4 +17,3 @@ end
     deli << name
     puts "Welcome, #{name}. You are number #{deli} in line."
   end
-end
